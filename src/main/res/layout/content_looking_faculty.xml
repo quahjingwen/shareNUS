@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LookingFacultyActivity"
+    tools:showIn="@layout/activity_looking_faculty">
+
+    <TextView
+        android:id="@+id/browseFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Faculty"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/allFaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALL" />
+
+            <Button
+                android:id="@+id/fass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arts N Social Sciences" />
+
+            <Button
+                android:id="@+id/biz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business" />
+
+            <Button
+                android:id="@+id/com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computing" />
+
+            <Button
+                android:id="@+id/sde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Design N Environment" />
+
+            <Button
+                android:id="@+id/engine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engineering" />
+
+            <Button
+                android:id="@+id/law"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="law" />
+
+            <Button
+                android:id="@+id/med"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medicine" />
+
+            <Button
+                android:id="@+id/science"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="science" />
+
+            <Button
+                android:id="@+id/gem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GEM" />
+
+            <Button
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="others" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quahjingwen.sharenus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellingActivity"
+            android:label="@string/title_activity_selling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingForActivity"
+            android:label="@string/title_activity_looking_for"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UploadSellingActivity"
+            android:label="@string/title_activity_upload_selling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrowseSellingActivity"
+            android:label="@string/title_activity_browse_selling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".uploadLookingForActivity"
+            android:label="@string/title_activity_upload_looking_for"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UploadLookingActivity" />
+        <activity android:name=".BrowseLookingActivity" />
+        <activity
+            android:name=".SellingFacultyActivity"
+            android:label="@string/title_activity_selling_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingFacultyActivity"
+            android:label="@string/title_activity_looking_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellingFASSCourseActivity"
+            android:label="@string/title_activity_selling_fasscourse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellingBizCourseActivity"
+            android:label="@string/title_activity_selling_biz_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SellingComputingCourseActivity" />
+        <activity android:name=".SellingSDECourseActivity" />
+        <activity
+            android:name=".SellingEngineActivity"
+            android:label="@string/title_activity_selling_engine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellingMedicineActivity"
+            android:label="@string/title_activity_selling_medicine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellingScienceActivity"
+            android:label="@string/title_activity_selling_science"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingBizCourseActivity"
+            android:label="@string/title_activity_looking_biz_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingEngineActivity"
+            android:label="@string/title_activity_looking_engine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingFASSCourseActivity"
+            android:label="@string/title_activity_looking_fasscourse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingMedicineActivity"
+            android:label="@string/title_activity_looking_medicine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingScienceActivity"
+            android:label="@string/title_activity_looking_science"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingComputingActivity"
+            android:label="@string/title_activity_looking_computing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LookingSDECourseActivity"
+            android:label="@string/title_activity_looking_sdecourse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BrowseLookingAsianStudies" />
+        <activity
+            android:name=".BrowseLookingHumanitiesActivity"
+            android:label="@string/title_activity_browse_looking_humanities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrowseLookingSocialActivity"
+            android:label="@string/title_activity_browse_looking_social"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrowseLookingLanguagesActivity"
+            android:label="@string/title_activity_browse_looking_languages"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BrowseLookingMixActivity" />
+        <activity android:name=".ChatLayoutActivity" />
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".MessageAreaActivity" />
+        <activity android:name=".BowseLookingBAActivity"></activity>
+    </application>
+
+</manifest>

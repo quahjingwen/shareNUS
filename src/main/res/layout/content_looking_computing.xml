@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LookingComputingActivity"
+    tools:showIn="@layout/activity_looking_computing">
+
+    <TextView
+        android:id="@+id/browseCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Courses"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/bza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Analytics" />
+
+    <Button
+        android:id="@+id/cs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science" />
+
+    <Button
+        android:id="@+id/isys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information Security" />
+
+    <Button
+        android:id="@+id/is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information Systems" />
+
+
+</LinearLayout>

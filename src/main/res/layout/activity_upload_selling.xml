@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upload_selling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quahjingwen.sharenus.UploadSellingActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ImageNameS"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonChooseS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Choose" />
+
+        <Button
+            android:id="@+id/buttonUploadS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewS"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="97dp" />
+
+    <EditText
+        android:id="@+id/ImageNameS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/FacultyS"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Title" />
+
+    <EditText
+        android:id="@+id/FacultyS"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewS"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Faculty" />
+
+    <EditText
+        android:id="@+id/editText3S"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageName"
+        android:layout_marginStart="-139dp"
+        android:layout_toEndOf="@+id/editText2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/CourseS"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewS"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Course" />
+
+    <EditText
+        android:id="@+id/ModuleCodeS"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageViewS"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Module Code" />
+
+    <Button
+        android:id="@+id/doneS"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_toEndOf="@+id/CourseS"
+        android:text="Done" />
+
+    <EditText
+        android:id="@+id/DescriptionS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewS"
+        android:layout_marginTop="-97dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/UsernameS"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username" />
+
+</RelativeLayout>

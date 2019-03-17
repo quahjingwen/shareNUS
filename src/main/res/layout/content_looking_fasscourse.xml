@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LookingFASSCourseActivity"
+    tools:showIn="@layout/activity_looking_fasscourse">
+
+    <TextView
+        android:id="@+id/browseCourseFASS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Courses"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/asianstudies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asian Studies" />
+
+    <Button
+        android:id="@+id/humanities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humanities" />
+
+    <Button
+        android:id="@+id/socialsciences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Sciences" />
+
+    <Button
+        android:id="@+id/languages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Languages" />
+
+    <Button
+        android:id="@+id/mix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multidisciplinary Programmes" />
+
+</LinearLayout>
